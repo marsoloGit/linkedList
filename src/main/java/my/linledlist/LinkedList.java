@@ -2,6 +2,7 @@ package my.linledlist;
 
 public class LinkedList<T> {
 
+	/** XXX: make it static */
 	public class Element<X> {
 		X item;
 		Element<X> next;
