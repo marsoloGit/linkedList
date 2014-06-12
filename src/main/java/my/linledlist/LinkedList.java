@@ -14,17 +14,13 @@ public class LinkedList<T> {
 
 		}
 
-		public Element() {
-
-		}
-
 		public X getItem() {
 			return item;
 		}
 
 	}
 
-	private final Element<T> zeroElement = new Element<T>();
+	private final Element<T> zeroElement = new Element<T>(null, null, null);
 
 	static int size = 0;
 
