@@ -4,10 +4,9 @@ package linkedlist.tests;
 
 import static org.junit.Assert.assertEquals;
 import my.linledlist.LinkedList;
+import my.linledlist.Sandwich;
 
 import org.junit.Test;
-
-import polymorphism.Sandwich;
 
 public class LinkedListAddTest {
 
