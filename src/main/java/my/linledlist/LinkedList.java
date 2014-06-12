@@ -3,9 +3,9 @@ package my.linledlist;
 public class LinkedList<T> {
 
 	public static class Element<X> {
-		X item;
-		Element<X> next;
-		Element<X> prev;
+		private X item;
+		private Element<X> next;
+		private Element<X> prev;
 
 		Element(X item, Element<X> next, Element<X> prev) {
 			this.item = item;
@@ -24,7 +24,7 @@ public class LinkedList<T> {
 
 	}
 
-	Element<T> zeroElement = new Element<T>();
+	private final Element<T> zeroElement = new Element<T>();
 
 	static int size = 0;
 
