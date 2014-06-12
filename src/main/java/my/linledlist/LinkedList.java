@@ -121,31 +121,4 @@ public class LinkedList<T> {
 
 	}
 
-	public static void main(String[] args) {
-		LinkedList<Integer> l = new LinkedList<Integer>();
-
-		l.add(1);
-		l.add(2);
-		l.add(3);
-		System.out.println(l.getFirst().item);
-		System.out.println(l.get(2).item);
-		System.out.println(l);
-		l.delete(1);
-		System.out.println(l);
-		l.add(4);
-		System.out.println(l);
-		l.delete(0);
-		System.out.println(l);
-		l.delete(0);
-		System.out.println(l);
-		l.delete(0);
-		System.out.println(l);
-		System.out.println(l.size);
-
-		l.add(0, 5);
-		System.out.println(l);
-		l.add(1, 88);
-		System.out.println(l);
-	}
-
 }
